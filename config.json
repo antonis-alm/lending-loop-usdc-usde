@@ -1,0 +1,33 @@
+{
+    "chain": "ethereum",
+    "lending_protocol": "aave_v3",
+    "lending_market": "aave_v3",
+    "collateral_token": "USDC",
+    "borrow_token": "USDE",
+    "max_loops": 3,
+    "initial_supply_pct": "1.0",
+    "target_hf": "1.6",
+    "min_hf_after_action": "1.5",
+    "stop_loop_hf": "1.45",
+    "emergency_hf": "1.30",
+    "min_swap_rate": "0.999",
+    "max_swap_slippage": "0.001",
+    "usde_depeg_floor": "0.995",
+    "usde_depeg_ceiling": "1.005",
+    "min_borrow_usd": "10",
+    "interest_rate_mode": "variable",
+    "force_action": "",
+    "token_funding": [
+        {
+            "symbol": "USDC",
+            "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+            "amount": "45",
+            "amount_type": "usd"
+        }
+    ],
+    "anvil_funding": {
+        "ETH": 2,
+        "USDC": 25000,
+        "USDE": 5000
+    }
+}

@@ -1,0 +1,10 @@
+[project]
+name = "lending_loop_u_s_d_c_u_s_d_e"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "almanak>=2.18.0",
+]
+
+[tool.almanak.run]
+interval = 60

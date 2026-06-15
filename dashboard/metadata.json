@@ -1,0 +1,5 @@
+{
+    "display_name": "Lending-Loop-USDC-USDE",
+    "description": "Aave V3 lending loop dashboard for USDC collateral and USDE debt with loop/risk telemetry.",
+    "icon": "🏦"
+}
